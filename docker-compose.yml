@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./src
+    command: python3 app.py
+    ports:
+      - 2137:5000
